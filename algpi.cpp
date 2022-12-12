@@ -1,11 +1,24 @@
 // algpi.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include <iostream>
+#include <stdio.h>
+#include <math.h>
 
-int main()
+int main(int argc, char* argv[], char* envp[])
 {
-    std::cout << "Hello World!\n";
+    printf("\n--------------------------------------------------------------------------------------------------------------------\n");
+    printf("Poèet argumentov:\t\t%d\n", argc);
+    printf("\n--------------------------------------------------------------------------------------------------------------------\n\n");
+
+    while (*argv)
+        printf("%s\n", *argv++);
+    
+    printf("\n--------------------------------------------------------------------------------------------------------------------\n\n");
+    while (*envp)
+        printf("%s\n", *envp++);
+    printf("\n--------------------------------------------------------------------------------------------------------------------\n\n");
+
+    return(0);
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
