@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "algpi", "algpi.vcxproj", "{C0A73C60-EB99-4787-A7D2-7225588C96EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0A73C60-EB99-4787-A7D2-7225588C96EF}.Debug|x64.ActiveCfg = Debug|x64
+		{C0A73C60-EB99-4787-A7D2-7225588C96EF}.Debug|x64.Build.0 = Debug|x64
+		{C0A73C60-EB99-4787-A7D2-7225588C96EF}.Debug|x86.ActiveCfg = Debug|Win32
+		{C0A73C60-EB99-4787-A7D2-7225588C96EF}.Debug|x86.Build.0 = Debug|Win32
+		{C0A73C60-EB99-4787-A7D2-7225588C96EF}.Release|x64.ActiveCfg = Release|x64
+		{C0A73C60-EB99-4787-A7D2-7225588C96EF}.Release|x64.Build.0 = Release|x64
+		{C0A73C60-EB99-4787-A7D2-7225588C96EF}.Release|x86.ActiveCfg = Release|Win32
+		{C0A73C60-EB99-4787-A7D2-7225588C96EF}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8BA3AFBD-48D6-4835-8291-C6B64B38F41C}
+	EndGlobalSection
+EndGlobal
